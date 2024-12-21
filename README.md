@@ -7,6 +7,25 @@ A Spring Boot project for managing flowcharts.
 - Java 11 or higher
 - Maven
 
+## Directory 
+``` /flowchart-manager
+|-- src/main/java/com/conceptile/flowchart
+|   |-- controller
+|   |   |-- FlowchartController.java
+|   |-- entity
+|   |   |-- Flowchart.java
+|   |   |-- Node.java
+|   |   |-- Edge.java
+|   |-- repository
+|   |   |-- FlowchartRepository.java
+|   |-- service
+|   |   |-- FlowchartService.java
+|-- src/main/resources
+|   |-- application.properties
+|-- pom.xml
+|-- README.md
+```
+
 ## Setup
 
 1. Clone the repository:
